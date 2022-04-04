@@ -1,0 +1,5 @@
+package com.te.springcore.module1.beans;
+
+public class Address {
+
+}

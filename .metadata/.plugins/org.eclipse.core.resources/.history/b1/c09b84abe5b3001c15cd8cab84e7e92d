@@ -1,0 +1,21 @@
+package com.te.springcore.module1.config;
+
+import org.springframework.context.annotation.Bean;
+
+import com.te.springcore.module1.beans.Address;
+import com.te.springcore.module1.beans.Student;
+
+public class config {
+	@Bean
+	public Student getStudentObj() {
+		Student student=new Student();
+		student.setStudentId(01);
+		student.setStudentName("abhinav");
+		student.setStudentAge(22);
+		return student;
+
+	}
+	@Bean
+	public Address
+
+}

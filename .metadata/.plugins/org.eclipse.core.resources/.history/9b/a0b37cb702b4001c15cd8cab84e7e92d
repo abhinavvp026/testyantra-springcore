@@ -1,0 +1,12 @@
+package com.te.springcore.assignment.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
+
+import com.te.springcore.assignment.beans.Address;
+import com.te.springcore.assignment.beans.Student;
+
+public class Config {
+
+
+}

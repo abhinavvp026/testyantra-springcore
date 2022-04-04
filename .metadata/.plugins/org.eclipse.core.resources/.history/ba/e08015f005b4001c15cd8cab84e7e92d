@@ -1,0 +1,17 @@
+package com.te.springcore.assignment.beans;
+
+public class GoldFish implements Creature {
+
+	@Override
+	public String creatureName() {
+		System.out.println("Hai my name is golden");
+		return null;
+	}
+
+	@Override
+	public String creatureType() {
+		System.out.println("I am a type of Gold Fish");
+		return null;
+	}
+
+}

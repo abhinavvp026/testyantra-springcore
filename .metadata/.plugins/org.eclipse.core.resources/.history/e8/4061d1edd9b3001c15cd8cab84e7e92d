@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+	<bean class="com.te.springcore.module1.beans.Address" name="address">
+	<property name="Id" value="1"></property>
+	<property name="city" value="BANGLORE"></property>
+	<property name="state" value="KARNATAKA"></property>
+	</bean>
+	<bean class="com.te.springcore.module1.beans.Student" name="student01" autowire="byName">
+	<property name="studentId" value="123"></property>
+	<property name="studentName" value="abhinav"></property>
+	<property name="studentAge" value="25"></property>
+	</bean>
+</beans>

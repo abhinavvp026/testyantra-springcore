@@ -1,0 +1,15 @@
+package com.te.springcore.assignment.beans;
+
+import java.io.Serializable;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+public class Earth implements Serializable {
+	private Double planetRadius;
+	private Double waterOnPlanetPercentage;
+	
+	private Creature creature;
+	
+	
+}
